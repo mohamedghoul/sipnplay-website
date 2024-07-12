@@ -33,7 +33,7 @@ Welcome to our submission for the Codédex Summer Hackathon '24, where we're tra
 
 
 Check out our project Miro Board  in action with this : [https://miro.com/app/board/uXjVK0Sz0kg=/]
-
+OUR PPT:https://www.canva.com/design/DAGKvybtI1I/_JKgp6lDelcmCgegJfowVQ/edit?utm_content=DAGKvybtI1I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 ### Technology Stack
 
 - **Next.js:** React framework for blazing-fast, user-friendly web apps.
