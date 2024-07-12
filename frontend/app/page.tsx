@@ -132,7 +132,7 @@ export default function Home() {
             </div>
             <div className="message block">
               <label htmlFor="frm-message">Message</label>
-              <textarea id="frm-message" rows="6" name="message"></textarea>
+              <textarea id="frm-message" name="message"></textarea>
             </div>
             <div className="button block">
               <button type="submit">Submit</button>
