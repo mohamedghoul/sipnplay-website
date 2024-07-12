@@ -9,6 +9,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+} from "@/components/ui/navigation-menu";
 
 export default function Navigation() {
   return (
@@ -55,3 +56,4 @@ export default function Navigation() {
     </div>
   );
 }
+

@@ -1,0 +1,98 @@
+body {
+  /* background-color: black; */
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+/* Home */
+.heroImage {
+  content: url("assets/HeroImage.png");
+  width: 100%;
+}
+
+.homeButton {
+  background-color: #29b14d;
+  color: white;
+  font-weight: 600;
+}
+
+#about {
+  background-color: #29b14d;
+  color: white;
+}
+
+h2 {
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+/* contact */
+#contact {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: transparent;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+#contact .container {
+  background-color: #dee9d3;
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 85%;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .container input,
+#contact .container textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+}
+
+#contact .container input:not(:last-child),
+#contact .container textarea:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.block button {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+  #contact .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  #contact .container input,
+  #contact .container textarea {
+    font-size: 0.8rem;
+  }
+
+  .block button {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}

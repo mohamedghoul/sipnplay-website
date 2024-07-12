@@ -1,0 +1,30 @@
+/* styles/navigation.css */
+
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navigation-menu-list {
+  display: flex;
+  flex-direction: row; /* Default layout */
+  list-style: none;
+  padding: 0;
+}
+
+.navigation-menu-item {
+  margin: 0 10px; /* Spacing between items */
+}
+
+@media (max-width: 768px) {
+  .navigation-menu-list {
+    flex-direction: column; /* Stack on small screens */
+    align-items: flex-start;
+  }
+
+  .navigation-menu-item {
+    margin-bottom: 10px; /* Spacing for stacked items */
+  }
+}
