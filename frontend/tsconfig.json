@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/store/useStore.js", "app/store/zustand.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/store/useStore.js", "app/store/zustand.js", "components/3d/Menu.jsx"],
   "exclude": ["node_modules"]
 }

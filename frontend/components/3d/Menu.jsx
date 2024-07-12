@@ -8,7 +8,7 @@ import SandwichWithChips from "./SandwichWithChips";
 
 export default function Menu3D() {
   // Get all drinks and food from the store
-  const drinks = useDrinksStore((state) => state.drinks);
+  const drinks  = useDrinksStore((state) => state.drinks);
   const food = useFoodStore((state) => state.food);
 
   return (
