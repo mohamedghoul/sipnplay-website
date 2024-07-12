@@ -10,6 +10,9 @@ const config = {
 	],
   prefix: "",
   theme: {
+    backgroundImage: {
+      'gradient-bg': "url('/background.png')",
+    },
     container: {
       center: true,
       padding: "2rem",

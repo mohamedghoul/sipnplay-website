@@ -9,7 +9,6 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
-} from "@/components/ui/navigation-menu";
 
 export default function Navigation() {
   return (
@@ -27,13 +26,6 @@ export default function Navigation() {
             <Link href="/menu" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Menu
-              </NavigationMenuLink>
-            </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-            <Link href="/games" legacyBehavior passHref>
-              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Games
               </NavigationMenuLink>
             </Link>
           </NavigationMenuItem>
